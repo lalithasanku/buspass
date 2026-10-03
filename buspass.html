@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h3><center>TELANGANA STATE ROAD TRANSPORT CORPORATION</center></h3>
+            <h3><center>GENERAL BUS PASS APPLICATION</center></h3>       
+        </fieldset>
+        <fieldset>
+            <legend>Applicant Details</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        
+            <label for="FatherName">Father's/Guardian's Name:</label>
+            <input type="text" id="FatherName" required>
+            <br>
+            <label for="dob">Date of birth:</label>
+            <input type="date" required>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <label for="">Gender:</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="radio" name="gender" required>Female
+            <input type="radio" name="gender" required>Male
+            <br>
+            <label for="">Age as on:</label>
+            <input type="text">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        
+            <label for="Aadhar">Aadhar No:</label>
+            <input type="text" id="Aadhar">
+            <br>
+            <label for="number">WhatsApp No:</label>
+            <input type="tel" [6-9][0-9]+ minlength="10" maxlength="10" required>&nbsp;&nbsp;
+            <label for="">E-mail Id</label>
+            <input type="text" [a-z]+[0-9]+@gmail.com placeholder="abc123@gmail.com" required>
+            <br>
+            <label for="">Photo:</label>
+            <input type="file" required>
+        </fieldset>
+        <fieldset>
+            <legend>Residential Address Details</legend>
+            <label for="address">Applicant's Address</label>
+            <textarea name="" id="address" required></textarea>&nbsp;&nbsp;
+            <label for="">District</label>
+            <select name="" id="" required>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>            
+            <br>
+            <label for="">Mandal</label>
+            <select name="" id="" required>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Village</label>
+            <select name="" id="" required>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Jayadarshini">Jayadarshini</option>
+            </select>            
+            <br>
+            <label for="">Pincode</label>
+            <input type="text" required>         
+        </fieldset>
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            <label for="">City</label>
+            <select name="" id="" required>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <br>
+            <label for="">Pass Type</label>
+            <select name="" id="" required>
+                <option value="">----Select----</option>
+                <option value="">Greater Pass</option>
+                <option value="">General Ordinary Route Pass MTLY</option>
+                <option value="">General Metro Express Route Pass MTLY</option>
+                <option value="">Ordinary Pass</option>
+                <option value="">Metro Express Pass</option>
+                <option value="">Metro Deluxe Pass</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Mode of payment &amp; pass collection</legend>
+            <label for="">Payment Mode</label>
+            <select name="" id="" required>
+                <option value="">Select Payment Mode</option>
+                <option value="">Payment at counter</option>
+                
+            </select>
+            <br>
+            <label for="">Pass Delivery Mode</label>
+                <select name="" id="" required>
+                    <option value="">Select pass Delivery Mode</option>
+                    <option value="">At counter</option>
+                </select>
+            <table border="3" width="700">
+                <tr>
+                    <td>Pass Amount:</td>
+                    <td>&#8377</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Id Charges:</td>
+                   <td>&#8377</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Courier Charges</td>
+                    <td>&#8377</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Total Amount</td>
+                    <td>&#8377</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Service Charge <br> (2.5% on D)</td>
+                    <td>&#8377</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td><B>Grand Total</B> <br> (D+E) </td>
+                    <td>&#8377</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>online payment</td>
+                    <td><img src="./VISA-Logo-1992.png" height="100" width="100">
+                    <img src="./images.png" alt="" height="100" width="100"></td>
+                </tr>
+            </table>
+            <label for="">Center at which you want to collect pass</label>
+            <select name="" id="" required>
+                <option value="">---select---</option>
+                <option value="">RTC CBS-- HYD[30/09/2026]</option>
+                <option value="">RTC ECIL -- HYD[30/09/2026]</option>
+                <option value="">RTC KOTI -- HYD[30/09/2026]</option>
+                <option value="">RTC KPHB -- HYD[30/09/2026]</option>
+                <option value="">RTC UPPAL -- HYD[30/09/2026]</option>
+            </select>
+        </fieldset>
+        
+        <button type="">Submit</button>
+
+    </form>
+        
+</body>
+</html>
